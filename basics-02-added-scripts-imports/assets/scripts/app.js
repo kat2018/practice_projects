@@ -1,15 +1,9 @@
-// // let can be changed
-// let userName = 'Max';
-// userName = 'Manu';
+const defaultResult = 0;
 
-// console.log(userName);
+let currentResult = defaultResult;
 
-// // const cant be changed
-// const totalUsers = 15;
-// totalUsers = 20;
+currentResult = (currentResult + 10) * 3 / 2 - 1;
 
-let currentResult = 0;
+let calculationDescription = '(' + defaultResult + ' + 10) * 3 / 2 - 1';
 
-currentResult = currentResult + 10;
-
-outputResult(currentResult, '');
+outputResult(currentResult, calculationDescription);
